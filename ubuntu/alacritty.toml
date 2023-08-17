@@ -1,0 +1,67 @@
+# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+
+import = [ "~/.config/alacritty/alacritty-themes/themes/one_dark.toml" ]
+
+live_config_reload = true
+
+[window]
+padding = { x = 10, y = 5 }
+dynamic_title = true
+
+[scrolling]
+multiplier = 5
+
+[font]
+size = 18
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[terminal]
+osc52 = "CopyPaste"
+
+
+# [cursor]
+# unfocused_hollow = true
+# vi_mode_style    = "None"
+
+# [[keyboard.bindings]]
+# action = "Paste"
+# key    = "V"
+# mods   = "Control|Shift"
+
+# [[keyboard.bindings]]
+# action = "Copy"
+# key    = "C"
+# mods   = "Control|Shift"
+
+# [[keyboard.bindings]]
+# action = "ScrollPageUp"
+# key    = "PageUp"
+# mods   = "Shift"
+
+# [[keyboard.bindings]]
+# action = "ScrollPageDown"
+# key    = "PageDown"
+# mods   = "Shift"
+
+# [[keyboard.bindings]]
+# action = "ScrollToTop"
+# key    = "Home"
+# mods   = "Shift"
+
+# [[keyboard.bindings]]
+# action = "ScrollToBottom"
+# key    = "End"
+# mods   = "Shift"
+
+# [mouse]
+# hide_when_typing = true
+
+# [debug]
+# highlight_damage   = false
+# log_level          = "Warn"
+# persistent_logging = false
+# print_events       = false
+# render_timer       = false
